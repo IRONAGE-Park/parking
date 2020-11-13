@@ -1,0 +1,8 @@
+@import '../../static/stylesheets/Root.scss';
+
+.container{
+    @include container();
+    border:1px solid orange;
+    background-color: orange;
+
+}

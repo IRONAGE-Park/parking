@@ -7,10 +7,12 @@ import ErrorPage from './pages/ErrorPage';
 
 import DialogContainer from './containers/assets/DialogContainer';
 import LoadingContainer from './containers/assets/LoadingContainer';
+import {useUrl} from './hooks/useUrl';
 
 import { Paths } from './paths';
 
 const App = () => {
+    useUrl();
     return (
         <>
             <Switch>

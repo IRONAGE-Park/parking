@@ -12,7 +12,7 @@ $padding-side: 0 24px;
 }
 
 // 모바일 컨테이너 믹스인
-@mixin container($pd-top) {
+@mixin container($pd-top :60px) {
     max-width: $max-width;
     min-width: $min-width;
     min-height: $min-height;

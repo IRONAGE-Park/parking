@@ -1,4 +1,5 @@
 export const Paths = {
+
     main: {
         index: '/',
         detail: '/detail',
@@ -61,4 +62,5 @@ export const Paths = {
         }
     },
     api: 'https://www.naver.com/'
+    
 };
