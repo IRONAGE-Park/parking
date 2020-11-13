@@ -64,3 +64,5 @@ export const Paths = {
     api: 'https://www.naver.com/'
     
 };
+
+export const duration =300;
