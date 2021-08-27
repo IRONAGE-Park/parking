@@ -6,7 +6,7 @@ import styles from './Aside.module.scss';
 import cn from 'classnames/bind';
 
 //components
-import { ButtonBase, IconButton, Backdrop } from '@material-ui/core';
+import { ButtonBase, IconButton } from '@material-ui/core';
 import Slider from "react-slick";
 import XButton from '../../static/asset/svg/auth/XButton';
 
@@ -145,7 +145,7 @@ const Aside = ({ open, handleClose }) => {
                     </div>
                 </div>
             </div>
-            <Backdrop open={open} className={cx('dim')} onClick={handleClose} />
+            {/* <Backdrop open={open} className={cx('dim')} onClick={handleClose} /> */}
         </>
     );
 };
